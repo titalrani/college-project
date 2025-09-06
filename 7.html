@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Academic Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    table {
+      width: 80%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f9ff;
+    }
+
+    tr:hover {
+      background-color: #e0f4ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student CGPA Report</h1>
+
+  <table>
+    <tr>
+      <th rowspan="2">Name</th>
+      <th rowspan="2">Registration No</th>
+      <th colspan="2">CGPA</th>
+    </tr>
+    <tr>
+      <th>6th Sem</th>
+      <th>Overall</th>
+    </tr>
+    <tr>
+      <td>Aditya Kumar Yadav</td>
+      <td>1234567890</td>
+      <td>8.2</td>
+      <td>8.0</td>
+    </tr>
+    <tr>
+      <td>Riya Sharma</td>
+      <td>1234567891</td>
+      <td>8.5</td>
+      <td>8.3</td>
+    </tr>
+    <tr>
+      <td>Manish Singh</td>
+      <td>1234567892</td>
+      <td>8.0</td>
+      <td>7.9</td>
+    </tr>
+    <tr>
+      <td>Sneha Mishra</td>
+      <td>1234567893</td>
+      <td>8.7</td>
+      <td>8.6</td>
+    </tr>
+  </table>
+
+</body>
+</html>

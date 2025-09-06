@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Four Section Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .section {
+      flex: 1;
+      background-color: #ffffff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    .section img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin: 10px 0 0;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="section">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" alt="Home Logo">
+      <h2>Home</h2>
+    </div>
+    <div class="section">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25613.png" alt="About Logo">
+      <h2>About</h2>
+    </div>
+    <div class="section">
+      <img src="https://cdn-icons-png.flaticon.com/512/685/685655.png" alt="Gallery Logo">
+      <h2>Gallery</h2>
+    </div>
+    <div class="section">
+      <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Contact Logo">
+      <h2>Contact</h2>
+    </div>
+  </div>
+
+</body>
+</html>
